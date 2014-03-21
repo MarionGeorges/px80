@@ -590,7 +590,7 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 }
 
 .topBanner #header_user{
-	background: url('../img/icon/cart.png') no-repeat 5px center #0071bc;
+	background: url('../img/icon/cart.png') no-repeat 2px center #0071bc;
 	background-size:60px;
 	height: 55px;
 	position:absolute;
@@ -600,8 +600,8 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 	color:white;
 	margin-right: 2%;
 	padding-top: 15px;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-right: 25px;
+	padding-left: 25px;
 }
 
 .topBanner #header_nav{
