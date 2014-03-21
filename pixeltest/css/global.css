@@ -629,6 +629,19 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 
 }
 
+.topBanner #header_user a.logout{
+	background: url(../img/icon/login.png) no-repeat 0 0;
+	position: absolute;
+	right: 213px;
+	top: 6px;
+	background-size: 50px;
+	color: #ffffff;
+	padding-left: 19px;
+	display: inline-block;
+	height: 57px;
+
+}
+
 .topBanner #header_user #header_user_info{
 	padding-bottom: 10px;
 }
