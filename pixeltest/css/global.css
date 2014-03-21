@@ -618,27 +618,41 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 
 .topBanner #header_user a.login{
 	background: url(../img/icon/login.png) no-repeat 0 0;
+	opacity: 0.7;
 	position: absolute;
 	right: 213px;
 	top: 6px;
 	background-size: 50px;
 	color: #ffffff;
-	padding-left: 19px;
+	padding-left: 30px;
 	display: inline-block;
 	height: 57px;
+	width: 32px;
+
+}
+
+.topBanner #header_user a.login:hover{
+opacity: 1;
 
 }
 
 .topBanner #header_user a.logout{
 	background: url(../img/icon/login.png) no-repeat 0 0;
+	opacity: 1;
 	position: absolute;
 	right: 213px;
 	top: 6px;
 	background-size: 50px;
 	color: #ffffff;
-	padding-left: 19px;
+	padding-left: 30px;
 	display: inline-block;
 	height: 57px;
+	width: 32px;
+
+}
+
+.topBanner #header_user a.logout:hover{
+opacity: 0.7;
 
 }
 
