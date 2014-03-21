@@ -37,7 +37,7 @@
 	<ul id="header_nav">
 		{if !$PS_CATALOG_MODE}
 		<li id="shopping_cart">
-			<a href="{$link->getPageLink($order_process, true)|escape:'html'}" title="" rel="nofollow">{l s='Cart' mod='blockuserinfo'}
+			<a href="{$link->getPageLink($order_process, true)|escape:'html'}" title="{l s='View my shopping cart' mod='blockuserinfo'}" rel="nofollow">
 			<span class="ajax_cart_quantity{if $cart_qties == 0} hidden{/if}">{$cart_qties}</span>
 			<span class="ajax_cart_product_txt{if $cart_qties != 1} hidden{/if}">{l s='Product' mod='blockuserinfo'}</span>
 			<span class="ajax_cart_product_txt_s{if $cart_qties < 2} hidden{/if}">{l s='Products' mod='blockuserinfo'}</span>
@@ -52,7 +52,7 @@
 					{/if}
 				{/if}
 			</span>
-			<span class="ajax_cart_no_product{if $cart_qties > 0} hidden{/if}">{l s='(empty)' mod='blockuserinfo'}</span>
+			<span class="ajax_cart_no_product{if $cart_qties > 0} hidden{/if}"></span>
 			</a>
 		</li>
 		{/if}
