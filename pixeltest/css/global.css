@@ -589,7 +589,7 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 	height: 55px;
 	position:absolute;
 	right: 0;
-	text-align: left;
+	text-align: right;
 	top: 0;
 	color:white;
 	margin-right: 2%;
@@ -611,8 +611,14 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 }
 
 .topBanner #header_user a.login{
-	color:#fff;
+	background:url(../img/icon/login.png) no-repeat 0 0;
+	color: #fff;
+	padding-left: 19px;
+	display: inline-block;
+	height: 16px;
+
 }
+
 
 /* ************************************************************************************************
 		BREADCRUMB
