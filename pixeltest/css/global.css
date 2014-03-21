@@ -590,7 +590,8 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 }
 
 .topBanner #header_user{
-	background-color: #0071bc;
+	background: url('../img/icon/cart.png') no-repeat 5px center #0071bc;
+	background-size:60px;
 	height: 55px;
 	position:absolute;
 	right: 0;
@@ -625,7 +626,10 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 }
 
 .topBanner #header_user #header_user_info{
-
+	padding-bottom: 10px;
+}
+.topBanner #header_user #header_user_info a{
+	color: #fff;
 }
 
 /* ************************************************************************************************
