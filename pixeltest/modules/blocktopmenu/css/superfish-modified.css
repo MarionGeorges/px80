@@ -132,10 +132,11 @@ ul.sf-menu li li li.sfHover ul {
 	white-space:nowrap;
 }
 .sf-menu > li > a , .sf-menu > li > a:visited{
-	font-size:16px;
+	font-size:20px;
 	height:155px;
 	line-height:280px;
 	font-family: Bellerose;
+	text-transform: uppercase;
 }
 .sf-menu li li {
 	background: rgba(113, 113, 113, 0.9);
