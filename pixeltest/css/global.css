@@ -589,8 +589,20 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 	right: 0;
 	text-align: left;
 	top: 0;
+	color:white;
+	padding-right: 30px;
 }
 
+.topBanner #header_nav{
+	background-color: #0071bc;
+	height:70px;
+	width:190px;
+
+}
+
+.topBanner #header_user li{
+	list-style:none;
+}
 
 .topBanner #header_user a.login{
 	color:#fff;
