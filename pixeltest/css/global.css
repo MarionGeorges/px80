@@ -585,6 +585,8 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 }
 
 .topBanner #header_user{
+	background-color: #0071bc;
+	height: 70px;
 	position:absolute;
 	right: 0;
 	text-align: left;
@@ -594,10 +596,11 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 }
 
 .topBanner #header_nav{
-	background-color: #0071bc;
-	height:70px;
 	width:190px;
+}
 
+.topBanner #header_user #header_nav li > a {
+	color: #fff;
 }
 
 .topBanner #header_user li{
