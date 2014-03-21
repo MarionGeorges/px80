@@ -1,0 +1,117 @@
+2014-03-15 : 00:09:28 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2014-03-15 : 00:09:28 - API Error : token invalide.
+2014-03-15 : 00:09:28 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2014-03-15 : 00:09:28 - API Error : token invalide.
+2014-03-15 : 00:09:28 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=getRootFeed&array=a%3A2%3A%7Bs%3A8%3A%22idClient%22%3Bi%3A0%3Bs%3A7%3A%22idGroup%22%3Bs%3A0%3A%22%22%3B%7D
+2014-03-15 : 00:09:28 - API Error : No feeds
+2014-03-15 : 00:10:01 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2014-03-15 : 00:10:02 - API Error : token invalide.
+2014-03-15 : 00:10:02 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2014-03-15 : 00:10:02 - API Error : token invalide.
+2014-03-15 : 00:10:02 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=getRootFeed&array=a%3A2%3A%7Bs%3A8%3A%22idClient%22%3Bi%3A0%3Bs%3A7%3A%22idGroup%22%3Bs%3A0%3A%22%22%3B%7D
+2014-03-15 : 00:10:04 - API Error : No feeds
+2014-03-15 : 00:11:15 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2014-03-15 : 00:11:16 - API Error : token invalide.
+2014-03-15 : 00:11:16 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2014-03-15 : 00:11:16 - API Error : token invalide.
+2014-03-15 : 00:11:16 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=getRootFeed&array=a%3A2%3A%7Bs%3A8%3A%22idClient%22%3Bi%3A0%3Bs%3A7%3A%22idGroup%22%3Bs%3A0%3A%22%22%3B%7D
+2014-03-15 : 00:11:16 - API Error : No feeds
+2014-03-15 : 00:11:30 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2014-03-15 : 00:11:30 - API Error : token invalide.
+2014-03-15 : 00:11:30 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2014-03-15 : 00:11:30 - API Error : token invalide.
+2014-03-15 : 00:11:30 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=getRootFeed&array=a%3A2%3A%7Bs%3A8%3A%22idClient%22%3Bi%3A0%3Bs%3A7%3A%22idGroup%22%3Bs%3A0%3A%22%22%3B%7D
+2014-03-15 : 00:11:31 - API Error : No feeds
+2014-03-15 : 00:12:25 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2014-03-15 : 00:12:25 - API Error : token invalide.
+2014-03-15 : 00:12:25 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2014-03-15 : 00:12:25 - API Error : token invalide.
+2014-03-15 : 00:12:25 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=getRootFeed&array=a%3A2%3A%7Bs%3A8%3A%22idClient%22%3Bi%3A0%3Bs%3A7%3A%22idGroup%22%3Bs%3A0%3A%22%22%3B%7D
+2014-03-15 : 00:12:26 - API Error : No feeds
+2014-03-15 : 00:31:20 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2014-03-15 : 00:31:20 - API Error : token invalide.
+2014-03-15 : 00:31:20 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2014-03-15 : 00:31:20 - API Error : token invalide.
+2014-03-15 : 00:31:20 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=getRootFeed&array=a%3A2%3A%7Bs%3A8%3A%22idClient%22%3Bi%3A0%3Bs%3A7%3A%22idGroup%22%3Bs%3A0%3A%22%22%3B%7D
+2014-03-15 : 00:31:20 - API Error : No feeds
+2014-03-15 : 00:33:57 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2014-03-15 : 00:33:57 - API Error : token invalide.
+2014-03-15 : 00:33:57 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2014-03-15 : 00:33:58 - API Error : token invalide.
+2014-03-15 : 00:33:58 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=getRootFeed&array=a%3A2%3A%7Bs%3A8%3A%22idClient%22%3Bi%3A0%3Bs%3A7%3A%22idGroup%22%3Bs%3A0%3A%22%22%3B%7D
+2014-03-15 : 00:33:58 - API Error : No feeds
+2014-03-15 : 00:37:08 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2014-03-15 : 00:37:08 - API Error : token invalide.
+2014-03-15 : 00:37:08 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2014-03-15 : 00:37:09 - API Error : token invalide.
+2014-03-15 : 00:37:09 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=getRootFeed&array=a%3A2%3A%7Bs%3A8%3A%22idClient%22%3Bi%3A0%3Bs%3A7%3A%22idGroup%22%3Bs%3A0%3A%22%22%3B%7D
+2014-03-15 : 00:37:09 - API Error : No feeds
+2014-03-15 : 00:37:33 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2014-03-15 : 00:37:33 - API Error : token invalide.
+2014-03-15 : 00:37:33 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2014-03-15 : 00:37:33 - API Error : token invalide.
+2014-03-15 : 00:37:33 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=getRootFeed&array=a%3A2%3A%7Bs%3A8%3A%22idClient%22%3Bi%3A0%3Bs%3A7%3A%22idGroup%22%3Bs%3A0%3A%22%22%3B%7D
+2014-03-15 : 00:37:34 - API Error : No feeds
+2014-03-15 : 00:39:06 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2014-03-15 : 00:39:07 - API Error : token invalide.
+2014-03-15 : 00:39:07 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2014-03-15 : 00:39:07 - API Error : token invalide.
+2014-03-15 : 00:39:07 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=getRootFeed&array=a%3A2%3A%7Bs%3A8%3A%22idClient%22%3Bi%3A0%3Bs%3A7%3A%22idGroup%22%3Bs%3A0%3A%22%22%3B%7D
+2014-03-15 : 00:39:07 - API Error : No feeds
+2014-03-15 : 00:39:58 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2014-03-15 : 00:39:58 - API Error : token invalide.
+2014-03-15 : 00:39:58 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=authentification&array=a%3A0%3A%7B%7D
+2014-03-15 : 00:39:58 - API Error : token invalide.
+2014-03-15 : 00:39:58 - Connector https://solution.lengow.com/wsdl/connector/call.json?token=&idClient=0&method=getRootFeed&array=a%3A2%3A%7Bs%3A8%3A%22idClient%22%3Bi%3A0%3Bs%3A7%3A%22idGroup%22%3Bs%3A0%3A%22%22%3B%7D
+2014-03-15 : 00:39:58 - API Error : No feeds
+2014-03-15 : 00:40:04 - export : init
+2014-03-15 : 00:40:04 - export : find 478 products
+2014-03-15 : 00:40:04 - export : 0 products
+2014-03-15 : 00:40:04 - export : 10 products
+2014-03-15 : 00:40:05 - export : 20 products
+2014-03-15 : 00:40:05 - export : 30 products
+2014-03-15 : 00:40:06 - export : 40 products
+2014-03-15 : 00:40:06 - export : 50 products
+2014-03-15 : 00:40:06 - export : 60 products
+2014-03-15 : 00:40:07 - export : 70 products
+2014-03-15 : 00:40:07 - export : 80 products
+2014-03-15 : 00:40:07 - export : 90 products
+2014-03-15 : 00:40:07 - export : 100 products
+2014-03-15 : 00:40:08 - export : 110 products
+2014-03-15 : 00:40:08 - export : 120 products
+2014-03-15 : 00:40:08 - export : 130 products
+2014-03-15 : 00:40:09 - export : 140 products
+2014-03-15 : 00:40:09 - export : 150 products
+2014-03-15 : 00:40:09 - export : 160 products
+2014-03-15 : 00:40:10 - export : 170 products
+2014-03-15 : 00:40:10 - export : 180 products
+2014-03-15 : 00:40:10 - export : 190 products
+2014-03-15 : 00:40:10 - export : 200 products
+2014-03-15 : 00:40:11 - export : 210 products
+2014-03-15 : 00:40:11 - export : 220 products
+2014-03-15 : 00:40:11 - export : 230 products
+2014-03-15 : 00:40:12 - export : 240 products
+2014-03-15 : 00:40:12 - export : 250 products
+2014-03-15 : 00:40:12 - export : 260 products
+2014-03-15 : 00:40:13 - export : 270 products
+2014-03-15 : 00:40:13 - export : 280 products
+2014-03-15 : 00:40:13 - export : 290 products
+2014-03-15 : 00:40:14 - export : 300 products
+2014-03-15 : 00:40:14 - export : 310 products
+2014-03-15 : 00:40:14 - export : 320 products
+2014-03-15 : 00:40:15 - export : 330 products
+2014-03-15 : 00:40:15 - export : 340 products
+2014-03-15 : 00:40:15 - export : 350 products
+2014-03-15 : 00:40:16 - export : 360 products
+2014-03-15 : 00:40:16 - export : 370 products
+2014-03-15 : 00:40:16 - export : 380 products
+2014-03-15 : 00:40:17 - export : 390 products
+2014-03-15 : 00:40:17 - export : 400 products
+2014-03-15 : 00:40:17 - export : 410 products
+2014-03-15 : 00:40:18 - export : 420 products
+2014-03-15 : 00:40:18 - export : 430 products
+2014-03-15 : 00:40:19 - export : 440 products
+2014-03-15 : 00:40:19 - export : 450 products
+2014-03-15 : 00:40:19 - export : 460 products
+2014-03-15 : 00:40:20 - export : 470 products
+2014-03-15 : 00:40:20 - export : end

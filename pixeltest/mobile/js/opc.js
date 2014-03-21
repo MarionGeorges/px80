@@ -1,0 +1,1 @@
+// $('.prestashop-page').live('pageinit',function(){Gift checkbox update@todo check with theme 1.4 if($('#HOOK_EXTRACARRIER').length==0&&json.HOOK_EXTRACARRIER!==null&&json.HOOK_EXTRACARRIER!=undefined)html+=json.HOOK_EXTRACARRIER;Order message update IE6 bug fix Recyclable checkbox Gift checkbox update Gift message update Term Of Service(TOS)IE6 bug fix
