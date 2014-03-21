@@ -21,6 +21,11 @@ legend{color:#000}
 input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
 input,button,textarea,select{font-size:100%}
 
+@font-face {
+    font-family: Bellerose;
+    src: url('font/Bellerose.ttf');
+}
+
 .ie7 input, .ie7 select{line-height:18px}
 a {cursor:pointer}
 
@@ -619,6 +624,9 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 
 }
 
+.topBanner #header_user #header_user_info{
+
+}
 
 /* ************************************************************************************************
 		BREADCRUMB
