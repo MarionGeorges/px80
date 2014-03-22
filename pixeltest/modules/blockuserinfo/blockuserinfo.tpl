@@ -41,7 +41,7 @@
 			<span class="ajax_cart_quantity{if $cart_qties == 0} hidden{/if}">{$cart_qties}</span>
 			<span class="ajax_cart_product_txt{if $cart_qties != 1} hidden{/if}">{l s='Product' mod='blockuserinfo'}</span>
 			<span class="ajax_cart_product_txt_s{if $cart_qties < 2} hidden{/if}">{l s='Products' mod='blockuserinfo'}</span>
-			<hr class="{if $cart_qties == 0} hidden{/if}" >
+			<div id="separateur" class="{if $cart_qties == 0} hidden{/if}" ><div>
 			<span class="ajax_cart_total{if $cart_qties == 0} hidden{/if}">
 				{if $cart_qties > 0}
 					{if $priceDisplay == 1}
@@ -54,7 +54,7 @@
 				{/if}
 
 			</span>
-			<span class="ajax_cart_no_product{if $cart_qties > 0} hidden{/if}">{l s='0 Product' mod='blockuserinfo'}</span>
+			<span class="ajax_cart_no_product{if $cart_qties > 0} hidden{/if}">{l s='0 Produit' mod='blockuserinfo'}</span>
 			</a>
 
 		</li>

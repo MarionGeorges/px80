@@ -32,7 +32,7 @@
 	cursor: pointer
 }
 
-#cart_block  .block_content {padding:8px 8px 16px 8px;}
+/*#cart_block  .block_content {padding:8px 8px 16px 8px;}*/
 
 #cart_block #cart_block_summary {display:none}
 #cart_block .quantity-formated {
@@ -51,16 +51,18 @@
 }
 #cart_block .remove_link a, #cart_block .ajax_cart_block_remove_link {
 	display:inline-block;
-	height:12px;
+	/*height:12px;*/
 	width:12px;
-	background: url(img/icon/delete.gif) no-repeat 0 0
+	background: url(../../../img/icon/cross.png) no-repeat 0 0;
+	background-size: 12px;
 }
 #cart_block .price {
 	float:right
 }
 
 #cart_block #cart_block_list dl {
-	padding-bottom:10px
+	padding-bottom:10px;
+	padding-right: 21px;
 }
 #cart_block #cart_block_list dt {padding:4px 0}
 #cart_block #cart_block_list dt a {font-weight:bold; display: inline-block; max-width: 95px}
@@ -70,6 +72,7 @@
 
 #cart_block #cart-prices {
 	padding:10px 4px;
+	padding-right: 21px;
 	line-height:20px;
 	font-weight:bold;
 	border-top:1px solid #999
@@ -82,8 +85,14 @@
 
 #cart_block #cart-buttons .button_small {display:none;}
 #cart_block #cart-buttons  #button_order_cart {
-	float:right;
-	padding-left:20px
+	width: 100%;
+	border: none;
+	line-height: 30px;
+	background-color: #00a4ff;
+	position: relative;
+	bottom: 0px;
+	padding: 0px;
+	margin: 0px
 }
 #cart_block #cart-buttons  #button_order_cart span {
 	position:absolute;
@@ -92,7 +101,7 @@
 	display:block;
 	height:26px;
 	width:26px;
-	background:url(img/icon/pict_add_cart.png) no-repeat 0 0
+	/*background:url(../../../img/icon/pict_add_cart.png) no-repeat 0 0*/
 }
 #cart_block table#vouchers {
 	clear: both;

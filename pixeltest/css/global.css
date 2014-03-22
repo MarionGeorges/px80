@@ -174,7 +174,7 @@ span.exclusive_mini, span.exclusive_small, span.exclusive, span.exclusive_large,
 	border-radius: 3px !important;
 	font-weight:bold;
 	color:#000;
-	background:url(../img/bg_bt.gif) repeat-x 0 0 #f4b61b;
+	/*background:url(../img/bg_bt.gif) repeat-x 0 0 #f4b61b;*/
 	cursor: pointer;
 }
 *:first-child+html input.button_mini, *:first-child+html input.button_small, *:first-child+html input.button, *:first-child+html input.button_large,
@@ -507,7 +507,7 @@ ul.step li.step_done {
 	text-indent: -999em;
 	cursor: pointer
 }
-.cancel, .cancel a { background: url(../../../modules/productcomments/img/delete.gif) no-repeat 0 -16px !important }
+.cancel, .cancel a { background: url(../../../modules/productcomments/img/cross.png) no-repeat 0 -16px !important }
 .star, .star a { background: url(../../../modules/productcomments/img/star.gif) no-repeat 0 0 }
 .cancel a, .star a {
 	display: block;
@@ -593,8 +593,10 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 .topBanner #header_user{
 	background: url('../img/icon/cart.png') no-repeat 2px center #0071bc;
 	background-position-x: 6px;
+	background-position-y: 25px;
 	background-size:60px;
 	font-family: Bellerose;
+	color:#3f3f3f;
 	font-size: 16px;
 	letter-spacing: 0.7px;
 	height: 70px;
@@ -618,6 +620,7 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 
 .topBanner #header_user li{
 	list-style:none;
+	display: inline-flex;
 }
 
 .topBanner #header_user a.login{
@@ -662,18 +665,25 @@ opacity: 0.7;
 
 .topBanner #header_user #header_user_info{
 	padding-bottom: 10px;
+	font-size: 25px;
 }
 .topBanner #header_user #header_user_info a{
 	color: #fff;
 }
 
-#shopping_cart hr{
-	width: 118px;
+.ajax_cart_total{
+
+	font-size: 13px;
+	color: white;
+}
+
+#shopping_cart #separateur{
+/*	width: 118px;
 	margin-left: 69px;
 	margin-top: 12px;
-	margin-bottom: 5px;
-	background-image: -webkit-gradient( linear, right bottom, left bottom, color-stop(0, #0071BC), color-stop(0.51, #FFFFFF), color-stop(1, #0071BC) );
-	border: none;
+	margin-bottom: 0px;*/
+	/*background-image: -webkit-gradient( linear, right bottom, left bottom, color-stop(0, #0071BC), color-stop(0.51, #FFFFFF), color-stop(1, #0071BC) );*/
+	border-right: solid 1px;
 }
 
 /* ************************************************************************************************
@@ -2016,7 +2026,7 @@ form#sendComment h3 {font-size:14px;}
 	height:12px;
 	width:12px;
 	text-indent:-5000px;
-	background:url(../img/icon/delete.gif) no-repeat 0 0
+	background:url(../img/icon/cross.png) no-repeat 0 0
 }
 
 .star {
