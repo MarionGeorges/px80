@@ -20,6 +20,7 @@ sub{vertical-align:baseline}
 legend{color:#000}
 input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
 input,button,textarea,select{font-size:100%}
+hr { display:block; height:1px; border:0; border-top:1px solid #cccccc; margin:1em 0; padding:0;}
 
 @font-face {
     font-family: Bellerose;
@@ -593,13 +594,16 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 	background: url('../img/icon/cart.png') no-repeat 2px center #0071bc;
 	background-position-x: 6px;
 	background-size:60px;
-	height: 55px;
+	font-family: Bellerose;
+	font-size: 16px;
+	letter-spacing: 0.7px;
+	height: 70px;
 	position:absolute;
 	right: 0;
 	text-align: right;
 	top: 0;
 	color:white;
-	padding-top: 15px;
+	/*padding-top: 15px;*/
 	padding-right: 22px;
 	padding-left: 25px;
 }
@@ -661,6 +665,15 @@ opacity: 0.7;
 }
 .topBanner #header_user #header_user_info a{
 	color: #fff;
+}
+
+#shopping_cart hr{
+	width: 118px;
+	margin-left: 69px;
+	margin-top: 12px;
+	margin-bottom: 5px;
+	background-image: -webkit-gradient( linear, right bottom, left bottom, color-stop(0, #0071BC), color-stop(0.51, #FFFFFF), color-stop(1, #0071BC) );
+	border: none;
 }
 
 /* ************************************************************************************************

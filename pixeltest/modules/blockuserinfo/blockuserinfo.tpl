@@ -41,6 +41,7 @@
 			<span class="ajax_cart_quantity{if $cart_qties == 0} hidden{/if}">{$cart_qties}</span>
 			<span class="ajax_cart_product_txt{if $cart_qties != 1} hidden{/if}">{l s='Product' mod='blockuserinfo'}</span>
 			<span class="ajax_cart_product_txt_s{if $cart_qties < 2} hidden{/if}">{l s='Products' mod='blockuserinfo'}</span>
+			<hr class="{if $cart_qties > 0} hidden{/if}" >
 			<span class="ajax_cart_total{if $cart_qties == 0} hidden{/if}">
 				{if $cart_qties > 0}
 					{if $priceDisplay == 1}
@@ -51,9 +52,11 @@
 						{convertPrice price=$cart->getOrderTotal(true, $blockuser_cart_flag)}
 					{/if}
 				{/if}
+
 			</span>
-			<span class="ajax_cart_no_product{if $cart_qties > 0} hidden{/if}"></span>
+			<span class="ajax_cart_no_product{if $cart_qties > 0} hidden{/if}">{l s='0 produits dans le panier' mod='blockuserinfo'}</span>
 			</a>
+
 		</li>
 		{/if}
 		<!--<li id="your_account"><a href="{$link->getPageLink('my-account', true)|escape:'html'}" title="{l s='View my customer account' mod='blockuserinfo'}" rel="nofollow">{l s='Your Account' mod='blockuserinfo'}</a></li>-->
