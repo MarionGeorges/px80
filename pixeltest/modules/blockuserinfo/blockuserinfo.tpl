@@ -32,6 +32,7 @@
 			<a href="{$link->getPageLink('index', true, NULL, "mylogout")|escape:'html'}" title="{l s='Log me out' mod='blockuserinfo'}" class="logout" rel="nofollow"></a>
 		{else}
 			<a href="{$link->getPageLink('my-account', true)|escape:'html'}" title="{l s='Login to your customer account' mod='blockuserinfo'}" class="login" rel="nofollow"></a>
+			<div id="welcome">{l s='Welcome' mod='blockuserinfo'}</div>
 		{/if}
 	</p>
 	<ul id="header_nav">

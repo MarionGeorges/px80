@@ -88,15 +88,37 @@
 #cart_block #cart-buttons  #button_order_cart {
 	width: 100%;
 	border: none;
-	line-height: 30px;
+	line-height: 40px;
 	background:none;
+	color: white;
 	background-color: #00a4ff;
 	position: relative;
 	bottom: 0px;
 	padding: 0px;
 	margin: 0px;
 	margin-top: 15px;
+	font-size: 20px;
+	padding-bottom: 8px;
+	font-family: Bellerose;
 }
+
+#cart_block #cart-buttons  #button_order_cart:hover {
+	width: 100%;
+	border: none;
+	line-height: 40px;
+	background:none;
+	color: white;
+	background-color: #00bc85;
+	position: relative;
+	bottom: 0px;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 15px;
+	font-size: 20px;
+	padding-bottom: 8px;
+	font-family: Bellerose;
+}
+
 #cart_block #cart-buttons  #button_order_cart span {
 	position:absolute;
 	top:-1px;

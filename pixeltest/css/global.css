@@ -306,19 +306,23 @@ table.table_block  td {
 #footer .block {margin-bottom:0}
 	.block .title_block, .block h4 {
 		padding:6px 11px;
-		font-size:12px;
-		color:#fff;
-		text-shadow:0 1px 0 #000;
+		font-size: 35px;
+		text-align: center;
+		color: #0071bc;
+		padding-bottom: 15px;
+		font-family: Bellerose;
+		/*text-shadow:0 1px 0 #000;*/
 		text-transform:uppercase;
-		background:#0071bc;
+		background:#e6e6e6;
 		font-weight: bold;
+		line-height: 30px;
 	}
 		.block .title_block a, .block h4 a {color:#fff}
 	.block ul {list-style-type:none}
 		.block li.last {	border:none}
 			.block li a {
 				display:block;
-				color:#333
+				color:#e6e6e6;
 			}
 
 /* BLOCK .products_block *********************************************************************** */
@@ -326,6 +330,10 @@ table.table_block  td {
 	.products_block li {float:left
 }
 	.products_block li img {border:1px solid #d1d1d1}
+
+	#featured-products_block_center{
+		background-color: #3d3d3d;
+	}
 
 /* BLOCK customer privacy ******************************************************************* */
 .account_creation label{
@@ -614,11 +622,20 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 
 .topBanner #header_user #header_nav li > a {
 	color: #fff;
+	margin-top: 23px;
+	margin-right: 0px;
 }
 
 .topBanner #header_user li{
 	list-style:none;
 	display: inline-flex;
+}
+.topBanner #welcome{
+font-size: 25px;
+text-align: center;
+margin-top: -7px;
+letter-spacing: 0.7px;
+
 }
 
 .topBanner #header_user a.login{
@@ -673,6 +690,7 @@ opacity: 0.7;
 	font-size: 13px;
 	color: white;
 	border-left: 1px solid #fff;
+	border-color: #e6e6e6;
 	height: 19px;
 	padding-left: 5px;
 }
@@ -681,14 +699,6 @@ opacity: 0.7;
 }
 
 
-#shopping_cart #separateur{
-/*	width: 118px;
-	margin-left: 69px;
-	margin-top: 12px;
-	margin-bottom: 0px;*/
-	/*background-image: -webkit-gradient( linear, right bottom, left bottom, color-stop(0, #0071BC), color-stop(0.51, #FFFFFF), color-stop(1, #0071BC) );*/
-	border-right: solid 1px;
-}
 
 /* ************************************************************************************************
 		BREADCRUMB
