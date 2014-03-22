@@ -54,7 +54,7 @@
 				{/if}
 
 			</span>
-			<span class="ajax_cart_no_product{if $cart_qties > 0} hidden{/if}">{l s='0 produits dans le panier' mod='blockuserinfo'}</span>
+			<span class="ajax_cart_no_product{if $cart_qties > 0} hidden{/if}">{l s='0 Product' mod='blockuserinfo'}</span>
 			</a>
 
 		</li>
