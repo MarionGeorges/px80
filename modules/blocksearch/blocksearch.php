@@ -45,7 +45,7 @@ class BlockSearch extends Module
 
 	public function install()
 	{
-		if (!parent::install() || !$this->registerHook('top') || !$this->registerHook('header') || !$this->registerHook('displayMobileTopSiteMap') || $this->registerHook('topHead'))
+		if (!parent::install() || !$this->registerHook('top') || !$this->registerHook('header') || !$this->registerHook('displayMobileTopSiteMap') || !$this->registerHook('topHead'))
 			return false;
 		return true;
 	}
@@ -109,7 +109,7 @@ public function hookDisplayMobileHeader($params)
 		return $this->display(__FILE__, 'blocksearch-top.tpl', Tools::getValue('search_query') ? null : $key);
 	}
 
-	public function hookTopHeader($params)
+	public function hookTopHead($params)
 	{
 		$key = $this->getCacheId('blocksearch-top'.((!isset($params['hook_mobile']) || !$params['hook_mobile']) ? '' : '-hook_mobile'));
 		if (Tools::getValue('search_query') || !$this->isCached('blocksearch-top.tpl', $key))
