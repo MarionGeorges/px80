@@ -63,6 +63,7 @@
 #cart_block #cart_block_list dl {
 	padding-bottom:10px;
 	padding-right: 21px;
+	margin-top: 15px;
 }
 #cart_block #cart_block_list dt {padding:4px 0}
 #cart_block #cart_block_list dt a {font-weight:bold; display: inline-block; max-width: 95px}
@@ -93,7 +94,8 @@
 	position: relative;
 	bottom: 0px;
 	padding: 0px;
-	margin: 0px
+	margin: 0px;
+	margin-top: 15px;
 }
 #cart_block #cart-buttons  #button_order_cart span {
 	position:absolute;
