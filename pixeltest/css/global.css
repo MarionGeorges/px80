@@ -700,8 +700,33 @@ opacity: 0.7;
 
 .topBanner #search_block_top{
 	position: absolute;
-	top: 0;
-	left:0;
+	top: 12px;
+	left: 7px;
+}
+
+input::-webkit-input-placeholder{ /* WebKit browsers */
+		    color:#00bc85;
+		    font-family:AvenirNextLTPro;
+		}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		    color:#00bc85;
+		    font-family:AvenirNextLTPro;
+		}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+		    color:#00bc85;
+		    font-family:AvenirNextLTPro;
+		}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+		    color:#00bc85;
+		    font-family:AvenirNextLTPro;
+		}
+
+.topBanner #search_block_top input[type='text']{
+	width: 212px;
+	height: 40px;
+	border: 0;
+	border: solid 1px #00bc85;
+	outline: none;
 }
 /* ************************************************************************************************
 		BREADCRUMB
