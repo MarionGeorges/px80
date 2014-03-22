@@ -106,6 +106,10 @@
 	width:26px;
 	/*background:url(../../../img/icon/pict_add_cart.png) no-repeat 0 0*/
 }
+
+#cart_block p#cart-buttons{
+	padding-bottom:0;
+}
 #cart_block table#vouchers {
 	clear: both;
 	width:100%
