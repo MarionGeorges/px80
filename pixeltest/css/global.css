@@ -570,6 +570,7 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 	position:absolute;
 	text-align:center; 
 	top: 0;
+	left:0;
 }
 #header_logo {
 	display: inline-block;
@@ -702,18 +703,33 @@ opacity: 0.7;
 	position: absolute;
 	top: 12px;
 	left: 7px;
+
 }
 
 
 .topBanner #search_block_top input[type='text']{
-	width: 212px;
+	width: 161px;
+	float: left;
 	height: 40px;
 	border: 0;
 	border: solid 1px #00bc85;
 	outline: none;
 	color:#00bc85;
 	font-size:18px;
+	padding-right:45px;
 }
+
+.topBanner #search_block_top input[type='submit']{
+	background-image: none;
+	background: url("../img/icon/loupe.png") 0 center no-repeat;
+	background-size: 27px;
+	border: none;
+	height: 40px;
+	width: 40px;
+	float:left;
+	margin-left: -35px;
+
+	}
 /* ************************************************************************************************
 		BREADCRUMB
 ************************************************************************************************ */
