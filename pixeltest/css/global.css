@@ -636,12 +636,12 @@ letter-spacing: 0.7px;
 }
 
 .topBanner #header_user a.login{
-	background: url(../img/icon/login.png) no-repeat 0 0;
+	background: url(../img/icon/login.png) no-repeat center center;
 	opacity: 0.7;
 	position: absolute;
 	right: 213px;
 	top: 6px;
-	background-size: 50px;
+	background-size: 30px;
 	color: #ffffff;
 	padding-left: 30px;
 	display: inline-block;
@@ -651,8 +651,7 @@ letter-spacing: 0.7px;
 }
 
 .topBanner #header_user a.login:hover{
-opacity: 1;
-
+	opacity: 1;
 }
 
 .topBanner #header_user a.logout{
