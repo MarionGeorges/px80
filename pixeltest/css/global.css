@@ -685,6 +685,11 @@ opacity: 0.7;
 .topBanner #header_user #header_user_info a{
 	color: #fff;
 }
+.topBanner #header_user #header_user_info .account{
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
 
 .topBanner #header_nav #shopping_cart .ajax_cart_total{
 	font-size: 13px;
