@@ -57,28 +57,28 @@
 }
 
 .sf-menu >li:first-child > a{
-	background:url("../img/header/iconconsole.png") center 15px no-repeat;
+	background:url("../img/header/iconconsolesco.png") center 15px no-repeat;
 	background-size:77px;
 }
 
 .sf-menu >li:nth-child(2) > a{
-	background:url("../img/header/iconjeux.png") center 15px no-repeat;
+	background:url("../img/header/iconjeuxco.png") center 15px no-repeat;
 	background-size:77px;
 }
 .sf-menu >li:nth-child(3) > a{
-	background:url("../img/header/iconimport.png") center 15px no-repeat;
+	background:url("../img/header/iconimportco.png") center 15px no-repeat;
 	background-size:77px;
 }
 .sf-menu >li:nth-child(6) > a{
-	background:url("../img/header/iconaccessoires.png") center 15px no-repeat;
+	background:url("../img/header/iconaccessoiresco.png") center 15px no-repeat;
 	background-size:77px;
 }
 .sf-menu >li:nth-child(5) > a{
-	background:url("../img/header/iconcontact.png") center 15px no-repeat;
+	background:url("../img/header/iconcontactco.png") center 15px no-repeat;
 	background-size:77px;
 }
 .sf-menu >li:nth-child(4) > a{
-	background:url("../img/header/iconmoncompte.png") center 15px no-repeat;
+	background:url("../img/header/iconmoncompteco.png") center 15px no-repeat;
 	background-size:77px;
 }
 
