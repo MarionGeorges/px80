@@ -44,7 +44,7 @@
 }
 
 .sf-menu > li:hover{
-	background:url('../img/header/hovermenu2.png') center bottom no-repeat;
+	background:url('../../../../img/header/hovermenu2.png') center bottom no-repeat;
 	z-index: 0;
 }
 .sf-menu > li:hover a{
@@ -57,28 +57,28 @@
 }
 
 .sf-menu >li:first-child > a{
-	background:url("../img/header/iconconsolesco.png") center 15px no-repeat;
+	background:url("../../../../img/header/iconconsoleco.png") center 15px no-repeat;
 	background-size:77px;
 }
 
 .sf-menu >li:nth-child(2) > a{
-	background:url("../img/header/iconjeuxco.png") center 15px no-repeat;
+	background:url("../../../../img/header/iconjeuxco.png") center 15px no-repeat;
 	background-size:77px;
 }
 .sf-menu >li:nth-child(3) > a{
-	background:url("../img/header/iconimportco.png") center 15px no-repeat;
+	background:url("../../../../img/header/iconimportco.png") center 15px no-repeat;
 	background-size:77px;
 }
 .sf-menu >li:nth-child(6) > a{
-	background:url("../img/header/iconaccessoiresco.png") center 15px no-repeat;
+	background:url("../../../../img/header/iconaccessoiresco.png") center 15px no-repeat;
 	background-size:77px;
 }
 .sf-menu >li:nth-child(5) > a{
-	background:url("../img/header/iconcontactco.png") center 15px no-repeat;
+	background:url("../../../../img/header/iconcontactco.png") center 15px no-repeat;
 	background-size:77px;
 }
 .sf-menu >li:nth-child(4) > a{
-	background:url("../img/header/iconmoncompteco.png") center 15px no-repeat;
+	background:url("../../../../img/header/iconmoncompteco.png") center 15px no-repeat;
 	background-size:77px;
 }
 
@@ -167,7 +167,8 @@ ul.sf-menu li li li.sfHover ul {
 	height:			10px;
 	text-indent: 	-999em;
 	overflow:		hidden;
-	background:		url('../img/arrows-ffffff.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+	/*m
+	motionbackground:		url('../img/arrows-ffffff.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
 }
 a > .sf-sub-indicator {  /* give all except IE6 the correct values */
 	top: 11px;
