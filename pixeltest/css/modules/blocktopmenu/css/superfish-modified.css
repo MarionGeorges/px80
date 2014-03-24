@@ -42,14 +42,45 @@
 	height:155px;
 	width: 179.8px;
 }
-
+/******************* HOVER *************************/
 .sf-menu > li:hover{
 	background:url('../../../../img/header/hovermenu2.png') center bottom no-repeat;
 	z-index: 0;
 }
+
 .sf-menu > li:hover a{
 	color:#fff;
 }
+
+
+.sf-menu >li:first-child > a:hover{
+	background:url("../../../../img/header/iconconsole.png") center 15px no-repeat;
+	background-size:77px;
+}
+
+.sf-menu >li:nth-child(2) > a:hover{
+	background:url("../../../../img/header/iconjeux.png") center 15px no-repeat;
+	background-size:77px;
+}
+.sf-menu >li:nth-child(3) > a:hover{
+	background:url("../../../../img/header/iconimport.png") center 15px no-repeat;
+	background-size:77px;
+}
+.sf-menu >li:nth-child(6) > a:hover{
+	background:url("../../../../img/header/iconaccessoires.png") center 15px no-repeat;
+	background-size:77px;
+}
+.sf-menu >li:nth-child(5) > a:hover{
+	background:url("../../../../img/header/iconcontact.png") center 15px no-repeat;
+	background-size:77px;
+}
+.sf-menu >li:nth-child(4) > a:hover{
+	background:url("../../../../img/header/iconmoncompte.png") center 15px no-repeat;
+	background-size:77px;
+}
+
+/*******************  FIN HOVER *************************/
+
 
 .sf-menu > li:nth-child(3),.sf-menu > li:nth-child(4){border-right:0;}
 .sf-menu > li:nth-child(4),.sf-menu > li:nth-child(5), .sf-menu > li:nth-child(6){
@@ -57,7 +88,7 @@
 }
 
 .sf-menu >li:first-child > a{
-	background:url("../../../../img/header/iconconsoleco.png") center 15px no-repeat;
+	background:url("../../../../img/header/iconconsoleco2.png") center 15px no-repeat;
 	background-size:77px;
 }
 
