@@ -25,7 +25,7 @@
 
 <!-- MODULE Block new products -->
 <div id="new-products_block_right" class="block products_block">
-	<p class="title_block"><a href="{$link->getPageLink('new-products')|escape:'html'}" title="{l s='New products' mod='blocknewproducts'}">{l s='New products' mod='blocknewproducts'}</a></p>
+	<h4 class="title_block"><a href="{$link->getPageLink('new-products')|escape:'html'}" title="{l s='New products' mod='blocknewproducts'}">{l s='New products' mod='blocknewproducts'}</a></h4>
 	<div class="block_content">
 	{if $new_products !== false}
 		<ul class="product_images clearfix">
@@ -43,7 +43,7 @@
 		</dl>
 		<p><a href="{$link->getPageLink('new-products')|escape:'html'}" title="{l s='All new products' mod='blocknewproducts'}" class="button_large">&raquo; {l s='All new products' mod='blocknewproducts'}</a></p>
 	{else}
-		<p>&raquo; {l s='No new products at this time' mod='blocknewproducts'}</p>
+		<p>&raquo; {l s='Do not allow new products at this time.' mod='blocknewproducts'}</p>
 	{/if}
 	</div>
 </div>

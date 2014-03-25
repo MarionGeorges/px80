@@ -318,7 +318,7 @@ table.table_block  td {
 		font-weight: bold;
 		line-height: 30px;
 	}
-		.block .title_block a, .block h4 a {color:#fff}
+		.block .title_block a, .block h4 a {color:#0071bc}
 	.block ul {list-style-type:none}
 		.block li.last {	border:none}
 			.block li a {
@@ -327,8 +327,9 @@ table.table_block  td {
 			}
 
 /* BLOCK .products_block *********************************************************************** */
-.products_block {}
-	.products_block li {float:left
+.products_block {text-align: center;}
+	.products_block li {
+		float:left;
 }
 	.products_block li img {border:1px solid #d1d1d1}
 
