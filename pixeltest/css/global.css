@@ -55,7 +55,8 @@ text-align: left;
 		#left_column {}
 		#center_column {
 			margin-top: -80px;
-			margin-left: 19%;}
+			width:100%;
+		}
 		#right_column {
 			width:16%;
 			margin-top: 2%;
