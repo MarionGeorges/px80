@@ -149,4 +149,7 @@
 	text-align: right;
 	width: 15px;
 }
-
+#cart_block .products , #cart_block #cart-prices{
+	padding-left: 20px;
+	text-align: left;
+}
