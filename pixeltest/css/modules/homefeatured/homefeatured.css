@@ -1,6 +1,9 @@
 #featured-products_block_center{
 	background-color: #3d3d3d;
 }
+#featured-products_block_center ul{
+	display:inline-block;
+}
 #featured-products_block_center li {
 	margin-right:10px;
 	padding:10px 0;

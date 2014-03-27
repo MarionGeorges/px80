@@ -7,18 +7,26 @@
 	<link rel="stylesheet" href="">
 
 	<style>
-		.toto{
-			margin-top: 200px;
-	width:200px;
-	height:100px;
-	background-color: red;
-	ransform:rotate(20deg); 
-	-ms-transform:rotate(20deg); /* Internet Explorer */
-	-moz-transform:rotate(20deg); /* Firefox */
-	-webkit-transform:rotate(20deg); /* Safari et Chrome */ 
-	-o-transform:rotate(20deg); /* Opera */
-
-};
+	.container{
+		display: inline-block;
+		width:200px;
+	}
+		.rectangle{
+			width: 100%;
+			display: inline-block;
+			height:55px;
+			margin-top: 100px;
+			background-color:#0071bc;
+		}
+		.rectangle:before{
+			content: "";
+			width: 0px;
+			top: -68px;
+			height: 0px;
+			position: relative;
+			border-style: solid;
+			border-width: 0 0 50px 100%;
+			border-color: transparent transparent #0071bc transparent;
 		}
 
 	</style>
@@ -26,13 +34,14 @@
 
 </head>
 <body>
-	
 
-	
+<div class="container">
 
+	<div class="rectangle">
+		
+	</div>
 
-
-	<div class="toto"></div>
+</div>
 
 </body>
 </html>
