@@ -30,6 +30,26 @@
 	<div class="block_content">
 	{if isset($msg) && $msg}
 		<p class="{if $nw_error}warning_inline{else}success_inline{/if}">{$msg}</p>
+        <!-- Google Code for newsletter Conversion Page -->
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 1020557169;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "QyjxCN_1zAgQ8e7R5gM";
+    var google_remarketing_only = false;
+    /* ]]> */
+    </script>
+    <script type="text/javascript"
+    src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt=""
+    src="//www.googleadservices.com/pagead/conversion/1020557169/?label=QyjxCN_1zAgQ8e7R5gM&amp;guid=ON&amp;script=0"/>
+    </div>
+</noscript>
 	{/if}
 		<form action="{$link->getPageLink('index')|escape:'html'}" method="post">
 			<p>

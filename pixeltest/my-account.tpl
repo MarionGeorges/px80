@@ -30,6 +30,27 @@
 {if isset($account_created)}
 	<p class="success">
 		{l s='Your account has been created.'}
+		
+		<!-- Google Code for signin Conversion Page -->
+		<script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 1020557169;
+		var google_conversion_language = "en";
+		var google_conversion_format = "3";
+		var google_conversion_color = "ffffff";
+		var google_conversion_label = "06FwCK-KzQgQ8e7R5gM";
+		var google_remarketing_only = false;
+		/* ]]> */
+		</script>
+		<script type="text/javascript"
+		src="//www.googleadservices.com/pagead/conversion.js">
+		</script>
+		<noscript>
+		<div style="display:inline;">
+		<img height="1" width="1" style="border-style:none;" alt=""
+		src="//www.googleadservices.com/pagead/conversion/1020557169/?label=06FwCK-KzQgQ8e7R5gM&amp;guid=ON&amp;script=0"/>
+		</div>
+		</noscript>
 	</p>
 {/if}
 <p class="title_block">{l s='Welcome to your account. Here you can manage al of your personal information and orders. '}</p>
