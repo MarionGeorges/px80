@@ -208,7 +208,7 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 						{assign var=imageTitlte value=$product->name|escape:'htmlall':'UTF-8'}
 					{/if}
 					<li id="thumbnail_{$image.id_image}">
-						<a href="{$link->getImageLink($product->link_rewrite, $imageIds, 'thickbox_default')|escape:'html'}" rel="other-views" class="thickbox{if $smarty.foreach.thumbnails.first} shown{/if}" title="{$imageTitlte}">
+						<a href="{$link->getImageLink($product->link_rewrite, $imageIds, 'large_default')|escape:'html'}" rel="other-views" class="thickbox{if $smarty.foreach.thumbnails.first} shown{/if}" title="{$imageTitlte}">
 							<img id="thumb_{$image.id_image}" src="{$link->getImageLink($product->link_rewrite, $imageIds, 'medium_default')|escape:'html'}" alt="{$imageTitlte}" title="{$imageTitlte}" height="{$mediumSize.height}" width="{$mediumSize.width}" />
 						</a>
 					</li>
