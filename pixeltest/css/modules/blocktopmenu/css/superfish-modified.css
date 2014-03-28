@@ -79,24 +79,20 @@
 	background-size:77px;
 }
 
-.sf-menu >li:hover div{
-	background-color: green;
-	height: 50px;
-	position: relative;
-	bottom: 50px;
-	z-index: -1;
+/*.sf-menu >li:hover{
+	background: linear-gradient(to top, #0071bc 31%, #fff 32%);
 }
 
-.sf-menu >li:hover	div:before {
+.sf-menu >li:hover:before {
 	content: "";
 	width: 0px;
-	top: -63px;
+	top: 56px;
 	height: 0px;
 	position: relative;
 	border-style: solid;
-	border-width: 0 0 50px 180px;
+	border-width: 0 0 38px 180px;
 	border-color: transparent transparent #0071bc transparent;
-}
+}*/
 
 /*******************  FIN HOVER *************************/
 

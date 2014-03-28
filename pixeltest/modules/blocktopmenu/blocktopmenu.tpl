@@ -14,7 +14,6 @@
 							<input type="text" name="search_query" value="{if isset($smarty.get.search_query)}{$smarty.get.search_query|escape:'htmlall':'UTF-8'}{/if}" />
 						</p>
 					</form>
-					<div></div>
 				</li>
 			{/if}
 		</ul>
