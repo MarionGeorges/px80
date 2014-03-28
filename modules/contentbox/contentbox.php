@@ -391,7 +391,7 @@ class contentbox extends Module
 			<table width="100%" border="0" cellspacing="0" cellpadding="0">
 			  <tr>
 				<td style="height:90px;" valign="middle">
-				<img src="'.$this->_path.'imgs/'.$image.'" style="max-width:100px; max-height:100px" />
+				<img src="'.$this->_path.'imgs/'.$image.'" />
 				</td>
 			  </tr>
 			</table>
