@@ -1,4 +1,5 @@
-{*
+<?php
+/*
 * 2007-2014 PrestaShop
 *
 * NOTICE OF LICENSE
@@ -21,10 +22,11 @@
 *  @copyright  2007-2014 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
-*}
+*/
 
-<li class="mailalerts">
-	<a href="{$link->getModuleLink('mailalerts', 'account', array(), true)|escape:'html'}" title="{l s='My alerts' mod='mailalerts'}" rel="nofollow">
-		{l s='My alerts' mod='mailalerts'}
-	</a>
-</li>
+require_once(dirname(__FILE__).'/../../config/config.inc.php');
+require_once(dirname(__FILE__).'/../../init.php');
+
+
+
+

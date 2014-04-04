@@ -43,4 +43,4 @@ $_MODULE['<{mailalerts}prestashop>product_67135a14d3ac4f1369633dd006d6efec'] = '
 $_MODULE['<{mailalerts}prestashop>product_61172eb93737ebf095d3fa02119ce1df'] = 'Demande de notification enregistrée';
 $_MODULE['<{mailalerts}prestashop>product_bb51a155575b81f4a07f7a9bafdc3b01'] = 'Vous avez déjà une alerte pour ce produit';
 $_MODULE['<{mailalerts}prestashop>product_900f8551b29793ecb604a545b2059cc1'] = 'Votre adresse e-mail est invalide';
-$_MODULE['<{mailalerts}prestashop>product_546e02eaa9a986c83cc347e273269f2c'] = 'Prévenez-moi lorsqu\'il est disponible';
+$_MODULE['<{mailalerts}prestashop>product_546e02eaa9a986c83cc347e273269f2c'] = 'Prévenez-moi lorsque le produit est disponible';

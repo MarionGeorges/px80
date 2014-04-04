@@ -1,4 +1,5 @@
-{*
+<?php
+/*
 * 2007-2014 PrestaShop
 *
 * NOTICE OF LICENSE
@@ -21,10 +22,33 @@
 *  @copyright  2007-2014 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
-*}
+*/
 
-<li class="mailalerts">
-	<a href="{$link->getModuleLink('mailalerts', 'account', array(), true)|escape:'html'}" title="{l s='My alerts' mod='mailalerts'}" rel="nofollow">
-		{l s='My alerts' mod='mailalerts'}
-	</a>
-</li>
+/**
+ * @since 1.5.0
+ */
+class MailalertsAccountModuleFrontController extends ModuleFrontController
+{
+	public function init()
+	{
+		parent::init();
+
+		require_once($this->module->getLocalPath().'MailAlert.php');
+	}
+
+	public function initContent()
+	{
+		parent::initContent();
+
+		if (!Context::getContext()->customer->isLogged())
+			Tools::redirect('index.php?controller=authentication&redirect=module&module=mailalerts&action=account');
+
+		if (Context::getContext()->customer->id)
+		{
+			$this->context->smarty->assign('id_customer', Context::getContext()->customer->id);
+			$this->context->smarty->assign('mailAlerts', MailAlert::getMailAlerts((int)Context::getContext()->customer->id, (int)Context::getContext()->language->id));
+			
+			$this->setTemplate('mailalerts-account.tpl');
+		}
+	}
+}

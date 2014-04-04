@@ -43,10 +43,32 @@
 	width: 179.8px;
 }
 /******************* HOVER *************************/
-.sf-menu > li:hover{
+/*.sf-menu > li:hover{
 	background:url('../../../../img/header/hovermenu2.png') center bottom no-repeat;
 	z-index: 0;
+}*/
+
+
+.sf-menu >li:first-child:hover {
+	background:url("../../../../img/header/hoverconsole.png") center bottom  no-repeat;
 }
+
+.sf-menu >li:nth-child(2):hover {
+	background:url("../../../../img/header/hoverjeux.png") center bottom  no-repeat;
+}
+.sf-menu >li:nth-child(3):hover {
+	background:url("../../../../img/header/hoverimport.png") center bottom  no-repeat;
+}
+.sf-menu >li:nth-child(6):hover {
+	background:url("../../../../img/header/hoveraccessoires.png") center bottom  no-repeat;
+}
+.sf-menu >li:nth-child(5):hover {
+	background:url("../../../../img/header/hovercontact.png") center bottom  no-repeat;
+}
+.sf-menu >li:nth-child(4):hover {
+	background:url("../../../../img/header/hovermoncompte.png") center bottom  no-repeat;
+}
+
 
 .sf-menu > li:hover a{
 	color:#fff;
