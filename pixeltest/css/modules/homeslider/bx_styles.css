@@ -7,7 +7,7 @@
 
 .bx-window {margin-bottom:20px;}
 .bx-wrapper {
-	width: 1212px;
+	width: 100% !important;
 	margin-bottom:20px;
 	height:300px;
 	text-align: center;

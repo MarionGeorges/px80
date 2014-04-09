@@ -50,9 +50,23 @@
     display: block;
     background-color: #0071bc;
     text-align: center;
-    padding-top: 11px;
+    padding-top: 6px;
     padding-bottom: 11px;
     margin-top: 15px;
     width: 230px;
     color: white;
+}
+
+.mailalerts_oos_email{
+    width: 231px;
+    border: 0;
+    height: 43px;
+    border: solid #329d62 1px;
+    padding-left: 20px;
+    color:#329d62;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    outline: none;
 }

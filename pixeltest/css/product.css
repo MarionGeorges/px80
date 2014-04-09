@@ -276,6 +276,13 @@ span.view_scroll_spacer {
 
 #availability_statut #availability_value.warning_inline {
 	background-color:#9B0000;
+	background-color: #9B0000;
+	height: 30px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;
+	padding-top: 9px;
 }
 
 /* prices */
